@@ -1,0 +1,51 @@
+.container {
+    background-color: rgba(41, 49, 122, 0.5);
+    width: 270px;
+    height: 281px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.theme {
+    height: 28px;
+    width: 232px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.options {
+    background-color: rgba(217, 217, 217, 0.5);
+    border-radius: 5px;
+    height: 179px;
+    width: 232px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.option {
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    height: 28px;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+    width: 200px
+}
+
+body {
+    background-color: white;
+}
